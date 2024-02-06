@@ -100,3 +100,8 @@ TABLESPACE pg_default;
 ALTER TABLE IF EXISTS public.login_page
     OWNER to postgres;
 ---------------------------------------------------------------------------------------------------
+
+Alter table inward and outward 
+
+ALTER TABLE public.inward_details
+ADD COLUMN date date;
